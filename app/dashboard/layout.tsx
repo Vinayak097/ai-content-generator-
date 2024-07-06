@@ -2,6 +2,7 @@ import React from 'react'
 import SideNav from '../_compenents/SideNav';
 import Navbar from '../_compenents/Navbar';
 import Header from '../_compenents/Header';
+import SearchSection from '../_compenents/SearchSection';
 
 function layout({
     children,
@@ -17,6 +18,7 @@ function layout({
         
         <div className='md:ml-64 '> 
             <Header></Header>
+            
             {children}
         </div>
 

@@ -6,7 +6,7 @@ function Header() {
     <div className='p-5 shodow-sm border-b-2 flex justify-between  items-center'>
         <div className='flex  gap-2  items-center p-2 border rounded-md  max-w-md'>
             <Search></Search>
-            <input type="text"  className='outline-none border ' placeholder='Search...' />
+            <input type="text"  className='outline-none w-[500px] ' placeholder='Search...' />
         </div>       
 
         <div className=''>

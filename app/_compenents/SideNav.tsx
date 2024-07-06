@@ -29,7 +29,7 @@ function SideNav() {
     }
     ]
   return (
-    <div className='h-screen bg-yellow-50 p-5 border'>
+    <div className='h-screen bg- p-5 '>
         <div><Image
         src={'/logo.svg'}
         width={100}
