@@ -1,8 +1,12 @@
+"use client"
 import React from 'react'
 import { Template } from './TempletSection'
 import Image from 'next/image'
+import Link from 'next/link'
+
 function TempletCard(item:Template) {
   return (
+    <Link href={"/dashboard/content/dfsd"}>
     <div className='shadow-lg p-4 flex border flex-col gap-2 hover:scale-105 transition-all'>
         <Image
         src={item.icon}
@@ -16,6 +20,7 @@ function TempletCard(item:Template) {
         
         
     </div>
+    </Link>
   )
 }
 

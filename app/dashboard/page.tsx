@@ -1,5 +1,5 @@
+
 "use client"
-import { SignIn } from '@clerk/nextjs'
 
 import React, { useState } from 'react'
 import SearchSection from '../_compenents/SearchSection'

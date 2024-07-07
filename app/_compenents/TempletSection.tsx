@@ -1,3 +1,4 @@
+
 import React, { useEffect, useState } from 'react'
 import Templet from '../(data)/Templet'
 import TempletCard from './TempletCard'
