@@ -3,12 +3,14 @@ import SideNav from '../_compenents/SideNav';
 import Navbar from '../_compenents/Navbar';
 import Header from '../_compenents/Header';
 import SearchSection from '../_compenents/SearchSection';
+import Templet from '../(data)/Templet';
 
 function layout({
     children,
   }: Readonly<{
     children: React.ReactNode;
   }>) {
+    
   return (
     <div>
         <div className='md:w-64 hidden md:block fixed  border'>
